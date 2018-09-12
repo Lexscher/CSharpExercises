@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSquareRoot", "FindSquar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheNumber", "FindTheNumber\FindTheNumber.csproj", "{03D0C47B-82AA-4A8B-A944-7D76B2EB154B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BombsOrBlooms", "BombsOrBlooms\BombsOrBlooms.csproj", "{AC55B64B-6D35-456A-BDBC-A0A0719846FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{03D0C47B-82AA-4A8B-A944-7D76B2EB154B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03D0C47B-82AA-4A8B-A944-7D76B2EB154B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D0C47B-82AA-4A8B-A944-7D76B2EB154B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC55B64B-6D35-456A-BDBC-A0A0719846FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC55B64B-6D35-456A-BDBC-A0A0719846FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC55B64B-6D35-456A-BDBC-A0A0719846FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC55B64B-6D35-456A-BDBC-A0A0719846FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

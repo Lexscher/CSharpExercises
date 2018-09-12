@@ -8,10 +8,10 @@ namespace FindTheNumber
         {
             Random rnd = new Random();
             int myChoice = rnd.Next(1, 1001);
+            Console.WriteLine();
+            Console.Write("Guess my number! Hint: It's between 1 and 1000 (inclusive) \"q\" to quit ");
             while (true)
             {
-                Console.WriteLine();
-                Console.Write("Guess my number! Hint: It's between 1 and 1000 (inclusive) \"q\" to quit ");
                 string sNumber = Console.ReadLine();
                 if (sNumber.ToLower() == "q") return;
                 if (!int.TryParse(sNumber, out int number))
@@ -35,7 +35,7 @@ namespace FindTheNumber
                     continue;
                 }
                 Console.WriteLine($"{number} is the same as {myChoice}! You got it!!");
-                return;
+                break;
             } // <~ Close While Loop
         }
     }
