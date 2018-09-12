@@ -21,7 +21,7 @@ namespace BombsOrBlooms
                 CountdownAndFlash(ConsoleColor.Green, "Blooming", ConsoleColor.Cyan, ConsoleColor.Red);
             }
         }
-
+        dog2 = dog
         static void CountdownAndFlash(
             ConsoleColor bkgColor,
             string msg,
