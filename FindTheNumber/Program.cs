@@ -6,14 +6,15 @@ namespace FindTheNumber
     {
         static void Main(string[] args)
         {
+            Random rnd = new Random();
+            int myChoice = rnd.Next(1, 1001);
             while (true)
             {
-                double myChoice = 471;
                 Console.WriteLine();
                 Console.Write("Guess my number! Hint: It's between 1 and 1000 (inclusive) \"q\" to quit ");
                 string sNumber = Console.ReadLine();
                 if (sNumber.ToLower() == "q") return;
-                if (!double.TryParse(sNumber, out double number))
+                if (!int.TryParse(sNumber, out int number))
                 {
                     Console.WriteLine($"{sNumber} is not a number. Sorry!");
                     continue;
@@ -33,10 +34,8 @@ namespace FindTheNumber
                     Console.WriteLine($"{number} is too high!");
                     continue;
                 }
-
                 Console.WriteLine($"{number} is the same as {myChoice}! You got it!!");
                 return;
-
             } // <~ Close While Loop
         }
     }
