@@ -26,18 +26,8 @@ namespace FindSquareRoot
 
                 double squareRoot = Math.Sqrt(number); // <~ Math.PI & Math.E are fields
                 Console.WriteLine($"The sqare root of {number} is {squareRoot}.");
-                Console.WriteLine("The square root of " + number + " is " + squareRoot + ".");
 
-
-            }
+            } // <~ Close While Loop
         }
-        //static int sum(int a, int b)
-        //{
-        //    int answer = a + b;
-        //    return answer;
-        //}
-        //sum(1, 2);
     }
 }
-
-             
