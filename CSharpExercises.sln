@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BombsOrBlooms", "BombsOrBlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{DCF46CF0-65FA-4ED8-9D2E-9D4972D5E569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{C3CFEE2E-408C-49F8-BDF2-E470D64879A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,5 +45,9 @@ Global
 		{DCF46CF0-65FA-4ED8-9D2E-9D4972D5E569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF46CF0-65FA-4ED8-9D2E-9D4972D5E569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF46CF0-65FA-4ED8-9D2E-9D4972D5E569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CFEE2E-408C-49F8-BDF2-E470D64879A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CFEE2E-408C-49F8-BDF2-E470D64879A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CFEE2E-408C-49F8-BDF2-E470D64879A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CFEE2E-408C-49F8-BDF2-E470D64879A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
