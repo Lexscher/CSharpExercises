@@ -22,6 +22,9 @@ namespace Calculator
                 Operator = c
             };
         }
+
+        private MathOperation() { }
+
         public double LeftOperand { get; private set; }
         public double RightOperand { get; private set; }
         public char Operator { get; private set; }
