@@ -18,15 +18,13 @@ namespace WordCount
                 Console.WriteLine($"File not found: {args[0]}");
             }
             string text = File.ReadAllText(args[0]);
-            const string word = "whale";
-            int position = text.IndexOf(word);
-            int count = 0;
-            while (position >= 0)
+            do
             {
-                count++;
-                position = text.IndexOf(word, position + 1);
-            }
-            Console.WriteLine($"The word \"{word}\" was found {count} times.");
+                string word = GetWordToSearch();
+                if (word == null) return;
+                int count = GetWordCount(text, word);
+                Console.WriteLine($"The word \"{word}\" was found {count} times.");
+            } while (true);
         }
 
         static string GetWordToSearch()
