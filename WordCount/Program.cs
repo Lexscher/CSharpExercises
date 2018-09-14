@@ -28,5 +28,27 @@ namespace WordCount
             }
             Console.WriteLine($"The word \"{word}\" was found {count} times.");
         }
+
+        static string GetWordToSearch()
+        {
+            Console.WriteLine("Enter a word to search for (q to quit): ");
+            string searchWord = Console.ReadLine();
+            if (string.IsNullOrEmpty(searchWord) || searchWord.ToLower() == "q")
+            {
+                return null;
+            }
+            return searchWord;
+        }
+        static int GetWordCount(string text, string word)
+        {
+            int position = text.IndexOf(word);
+            int count = 0;
+            while(position >=0)
+            {
+                count++;
+                position = text.IndexOf(word, position + 1);
+            }
+            return count;
+        }
     }
 }
