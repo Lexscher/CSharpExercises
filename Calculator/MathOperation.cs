@@ -1,7 +1,7 @@
 using System;
 namespace Calculator
 {
-    public class MathOperation
+    public class MathOperation : IMathOperation
     {
         const string Operators = "+-*/%";
         public static MathOperation ReadFromConsole()
@@ -43,6 +43,8 @@ namespace Calculator
                 }
             }
         }
+
+
         public override string ToString()
         {
             return $"{LeftOperand} {Operator} {RightOperand} = {Result}";
